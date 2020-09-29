@@ -1,14 +1,19 @@
 {
-    "name": "a cool code",
+    "name": "A messege for a friend",
     "description": "",
     "dependencies": {
         "core": "*",
-        "bluetooth": "*"
+        "MakerBit-LCD1602": "github:1010technologies/pxt-makerbit-lcd1602#v1.5.2",
+        "motorbit": "github:tinkertanker/pxt-motorbit#v1.0.1",
+        "i2cLCD1602": "github:makecode-extensions/i2clcd1602#v1.5.0",
+        "brightboard": "github:brightwearables/pxt-microbit-brightboard#0.7.1",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.7.3"
     },
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "main.py"
     ],
     "testFiles": [
         "test.ts"
